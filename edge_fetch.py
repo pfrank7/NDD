@@ -59,3 +59,9 @@ class edge_terrier():
             G = self.convert_edgelist(filename)
             if G is not None:
                 yield G
+
+    def getGraphs(self, list):
+        graphList = []
+        for item in list:
+            graphList.append(item[0])
+        return graphList
