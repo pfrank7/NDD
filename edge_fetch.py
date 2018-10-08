@@ -12,19 +12,24 @@ import networkx as nx
 class edge_terrier():
     # edge_terrier class returns all edgelists in a specified directory as networkx objects
 
-    def __init__(self, awsPath, filepath='hbn/derivatives/graphs/JHU/'):
+    def __init__(self, awsPath, neuro, filepath='hbn/derivatives/graphs/JHU/'):
 
         # Establish filepath
         self.filepath = filepath
         self.awsPath = awsPath
+        self.neuro = neuro
         # Get filelist for specific filepath
         self.filelist = self.s3_ls()
 
     def s3_ls(self):
 
         # Parse the output of the subprocess query
-        filelist = subprocess.check_output(
-            [self.awsPath, 's3', 'ls', 'neurodatadesign/' + self.filepath, '--no-sign-request']).split()
+        if self.neuro:
+            filelist = subprocess.check_output(
+                [self.awsPath, 's3', 'ls', 'neurodatadesign/' + self.filepath, '--no-sign-request']).split()
+        else:
+            filelist = subprocess.check_output(
+            [self.awsPath, 's3', 'ls', 'mrneurodata/' + self.filepath, '--no-sign-request']).split()
         filelist = [file.decode("utf-8") for file in filelist]
         filelist = [file for file in filelist if (
             '/' in file) or ('.' in file)]
@@ -58,6 +63,28 @@ class edge_terrier():
         for filename in self.filelist:
             G = self.convert_edgelist(filename)
             if G is not None:
+
+                yield G
+
+    def convert_gpickle(self, filename, draw_graph=False):
+        
+        # Fetch edgelist                                                               
+        link = 'http://mrneurodata.s3.amazonaws.com/' + self.filepath + filename
+        edges = requests.get(link)
+        G = nx.read_gpickle(edges)
+
+        if draw_graph:
+            nx.draw(G)
+            plt.show()
+
+        return G, filename
+
+    def convert_gpickle_all(self):
+        # returns a generator of all filelists
+        for filename in self.filelist:
+            G = self.convert_gpickle(filename)
+            if G is not None:
+
                 yield G
 
     def getGraphs(self, list):
