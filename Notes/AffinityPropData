@@ -1,0 +1,308 @@
+
+Feature = Eigenvector Centrality, Number of Features = 2
+
+
+|Preference | 0.10 | Damping |  0.5 | Clusters |  19 | Silhouette |  0.569 |
+|Preference | 0.10 | Damping |  0.6 | Clusters |  18 | Silhouette |  0.554 |
+|Preference | 0.10 | Damping |  0.7 | Clusters |  18 | Silhouette |  0.554 |
+|Preference | 0.10 | Damping |  0.8 | Clusters |  18 | Silhouette |  0.554 |
+|Preference | 0.10 | Damping |  0.9 | Clusters |  11 | Silhouette |  0.416 |
+|Preference | 0.20 | Damping |  0.5 | Clusters |  20 | Silhouette |  0.586 |
+|Preference | 0.20 | Damping |  0.6 | Clusters |  20 | Silhouette |  0.586 |
+|Preference | 0.20 | Damping |  0.7 | Clusters |  20 | Silhouette |  0.586 |
+|Preference | 0.20 | Damping |  0.8 | Clusters |  19 | Silhouette |  0.569 |
+|Preference | 0.20 | Damping |  0.9 | Clusters |  16 | Silhouette |  0.324 |
+|Preference | 0.30 | Damping |  0.5 | Clusters |  22 | Silhouette |  0.588 |
+|Preference | 0.30 | Damping |  0.6 | Clusters |  22 | Silhouette |  0.588 |
+|Preference | 0.30 | Damping |  0.7 | Clusters |  22 | Silhouette |  0.588 |
+|Preference | 0.30 | Damping |  0.8 | Clusters |  22 | Silhouette |  0.588 |
+|Preference | 0.30 | Damping |  0.9 | Clusters |  20 | Silhouette |  0.339 |
+|Preference | 0.40 | Damping |  0.5 | Clusters |  23 | Silhouette |  0.585 |
+|Preference | 0.40 | Damping |  0.6 | Clusters |  23 | Silhouette |  0.566 |
+|Preference | 0.40 | Damping |  0.7 | Clusters |  23 | Silhouette |  0.566 |
+|Preference | 0.40 | Damping |  0.8 | Clusters |  23 | Silhouette |  0.566 |
+|Preference | 0.40 | Damping |  0.9 | Clusters |  19 | Silhouette |  0.391 |
+|Preference | 0.50 | Damping |  0.5 | Clusters |  27 | Silhouette |  0.580 |
+|Preference | 0.50 | Damping |  0.6 | Clusters |  27 | Silhouette |  0.580 |
+|Preference | 0.50 | Damping |  0.7 | Clusters |  27 | Silhouette |  0.580 |
+|Preference | 0.50 | Damping |  0.8 | Clusters |  26 | Silhouette |  0.562 |
+|Preference | 0.50 | Damping |  0.9 | Clusters |  2  | Silhouette |  0.066 |
+|Preference | 0.60 | Damping |  0.5 | Clusters |  36 | Silhouette |  0.631 |
+|Preference | 0.60 | Damping |  0.6 | Clusters |  36 | Silhouette |  0.631 |
+|Preference | 0.60 | Damping |  0.7 | Clusters |  36 | Silhouette |  0.631 |
+|Preference | 0.60 | Damping |  0.8 | Clusters |  35 | Silhouette |  0.584 |
+|Preference | 0.60 | Damping |  0.9 | Clusters |  18 | Silhouette |  0.310 |
+|Preference | 0.70 | Damping |  0.5 | Clusters |  44 | Silhouette |  0.605 |
+|Preference | 0.70 | Damping |  0.6 | Clusters |  44 | Silhouette |  0.605 |
+|Preference | 0.70 | Damping |  0.7 | Clusters |  43 | Silhouette |  0.604 |
+|Preference | 0.70 | Damping |  0.8 | Clusters |  41 | Silhouette |  0.550 |
+|Preference | 0.70 | Damping |  0.9 | Clusters |  45 | Silhouette |  0.402 |
+|Preference | 0.80 | Damping |  0.5 | Clusters |  50 | Silhouette |  0.585 |
+|Preference | 0.80 | Damping |  0.6 | Clusters |  50 | Silhouette |  0.585 |
+|Preference | 0.80 | Damping |  0.7 | Clusters |  49 | Silhouette |  0.586 |
+|Preference | 0.80 | Damping |  0.8 | Clusters |  47 | Silhouette |  0.530 |
+|Preference | 0.80 | Damping |  0.9 | Clusters |  50 | Silhouette |  0.398 |
+|Preference | 0.90 | Damping |  0.5 | Clusters |  56 | Silhouette |  0.548 |
+|Preference | 0.90 | Damping |  0.6 | Clusters |  58 | Silhouette |  0.530 |
+|Preference | 0.90 | Damping |  0.7 | Clusters |  60 | Silhouette |  0.506 |
+|Preference | 0.90 | Damping |  0.8 | Clusters |  57 | Silhouette |  0.537 |
+|Preference | 0.90 | Damping |  0.9 | Clusters |  40 | Silhouette |  0.470 |
+
+Best Damping Value: 0.5 Best Preference Value: 0.6
+
+
+Feature = Eigenvector Centrality, Number of Features = 3
+
+|Preference | 0.10 | Damping |  0.5 | Clusters |  26 | Silhouette |  0.443 |
+|Preference | 0.10 | Damping |  0.6 | Clusters |  26 | Silhouette |  0.443 |
+|Preference | 0.10 | Damping |  0.7 | Clusters |  23 | Silhouette |  0.402 |
+|Preference | 0.10 | Damping |  0.8 | Clusters |  23 | Silhouette |  0.402 |
+|Preference | 0.10 | Damping |  0.9 | Clusters |  31 | Silhouette |  0.265 |
+|Preference | 0.20 | Damping |  0.5 | Clusters |  26 | Silhouette |  0.451 |
+|Preference | 0.20 | Damping |  0.6 | Clusters |  26 | Silhouette |  0.451 |
+|Preference | 0.20 | Damping |  0.7 | Clusters |  26 | Silhouette |  0.451 |
+|Preference | 0.20 | Damping |  0.8 | Clusters |  26 | Silhouette |  0.451 |
+|Preference | 0.20 | Damping |  0.9 | Clusters |  33 | Silhouette |  0.226 |
+|Preference | 0.30 | Damping |  0.5 | Clusters |  30 | Silhouette |  0.468 |
+|Preference | 0.30 | Damping |  0.6 | Clusters |  30 | Silhouette |  0.467 |
+|Preference | 0.30 | Damping |  0.7 | Clusters |  30 | Silhouette |  0.455 |
+|Preference | 0.30 | Damping |  0.8 | Clusters |  30 | Silhouette |  0.455 |
+|Preference | 0.30 | Damping |  0.9 | Clusters |  21 | Silhouette |  0.307 |
+|Preference | 0.40 | Damping |  0.5 | Clusters |  35 | Silhouette |  0.462 |
+|Preference | 0.40 | Damping |  0.6 | Clusters |  34 | Silhouette |  0.464 |
+|Preference | 0.40 | Damping |  0.7 | Clusters |  34 | Silhouette |  0.464 |
+|Preference | 0.40 | Damping |  0.8 | Clusters |  34 | Silhouette |  0.464 |
+|Preference | 0.40 | Damping |  0.9 | Clusters |  25 | Silhouette |  0.239 |
+|Preference | 0.50 | Damping |  0.5 | Clusters |  40 | Silhouette |  0.453 |
+|Preference | 0.50 | Damping |  0.6 | Clusters |  40 | Silhouette |  0.453 |
+|Preference | 0.50 | Damping |  0.7 | Clusters |  40 | Silhouette |  0.453 |
+|Preference | 0.50 | Damping |  0.8 | Clusters |  40 | Silhouette |  0.453 |
+|Preference | 0.50 | Damping |  0.9 | Clusters |  29 | Silhouette |  0.316 |
+|Preference | 0.60 | Damping |  0.5 | Clusters |  50 | Silhouette |  0.387 |
+|Preference | 0.60 | Damping |  0.6 | Clusters |  50 | Silhouette |  0.401 |
+|Preference | 0.60 | Damping |  0.7 | Clusters |  52 | Silhouette |  0.400 |
+|Preference | 0.60 | Damping |  0.8 | Clusters |  50 | Silhouette |  0.399 |
+|Preference | 0.60 | Damping |  0.9 | Clusters |  63 | Silhouette |  0.208 |
+|Preference | 0.70 | Damping |  0.5 | Clusters |  60 | Silhouette |  0.390 |
+|Preference | 0.70 | Damping |  0.6 | Clusters |  63 | Silhouette |  0.381 |
+|Preference | 0.70 | Damping |  0.7 | Clusters |  62 | Silhouette |  0.376 |
+|Preference | 0.70 | Damping |  0.8 | Clusters |  62 | Silhouette |  0.391 |
+|Preference | 0.70 | Damping |  0.9 | Clusters |  39 | Silhouette |  0.253 |
+|Preference | 0.80 | Damping |  0.5 | Clusters |  75 | Silhouette |  0.288 |
+|Preference | 0.80 | Damping |  0.6 | Clusters |  77 | Silhouette |  0.289 |
+|Preference | 0.80 | Damping |  0.7 | Clusters |  77 | Silhouette |  0.289 |
+|Preference | 0.80 | Damping |  0.8 | Clusters |  77 | Silhouette |  0.289 |
+|Preference | 0.80 | Damping |  0.9 | Clusters |  61 | Silhouette |  0.263 |
+|Preference | 0.90 | Damping |  0.5 | Clusters |  80 | Silhouette |  0.286 |
+|Preference | 0.90 | Damping |  0.6 | Clusters |  80 | Silhouette |  0.286 |
+|Preference | 0.90 | Damping |  0.7 | Clusters |  80 | Silhouette |  0.286 |
+|Preference | 0.90 | Damping |  0.8 | Clusters |  80 | Silhouette |  0.286 |
+|Preference | 0.90 | Damping |  0.9 | Clusters |  67 | Silhouette |  0.217 |
+
+Best Damping Value: 0.5 Best Preference Value: 0.3
+
+
+Feature = Eigenvector Centrality, Number of Features = 5
+
+|Preference | 0.10 | Damping |  0.5 | Clusters |  25 | Silhouette |  0.248 |
+|Preference | 0.10 | Damping |  0.6 | Clusters |  24 | Silhouette |  0.235 |
+|Preference | 0.10 | Damping |  0.7 | Clusters |  24 | Silhouette |  0.235 |
+|Preference | 0.10 | Damping |  0.8 | Clusters |  25 | Silhouette |  0.211 |
+|Preference | 0.10 | Damping |  0.9 | Clusters |  25 | Silhouette |  0.213 |
+|Preference | 0.20 | Damping |  0.5 | Clusters |  26 | Silhouette |  0.249 |
+|Preference | 0.20 | Damping |  0.6 | Clusters |  26 | Silhouette |  0.249 |
+|Preference | 0.20 | Damping |  0.7 | Clusters |  26 | Silhouette |  0.249 |
+|Preference | 0.20 | Damping |  0.8 | Clusters |  26 | Silhouette |  0.249 |
+|Preference | 0.20 | Damping |  0.9 | Clusters |  27 | Silhouette |  0.230 |
+|Preference | 0.30 | Damping |  0.5 | Clusters |  30 | Silhouette |  0.245 |
+|Preference | 0.30 | Damping |  0.6 | Clusters |  30 | Silhouette |  0.245 |
+|Preference | 0.30 | Damping |  0.7 | Clusters |  30 | Silhouette |  0.245 |
+|Preference | 0.30 | Damping |  0.8 | Clusters |  31 | Silhouette |  0.221 |
+|Preference | 0.30 | Damping |  0.9 | Clusters |  29 | Silhouette |  0.241 |
+|Preference | 0.40 | Damping |  0.5 | Clusters |  40 | Silhouette |  0.238 |
+|Preference | 0.40 | Damping |  0.6 | Clusters |  40 | Silhouette |  0.238 |
+|Preference | 0.40 | Damping |  0.7 | Clusters |  41 | Silhouette |  0.255 |
+|Preference | 0.40 | Damping |  0.8 | Clusters |  41 | Silhouette |  0.255 |
+|Preference | 0.40 | Damping |  0.9 | Clusters |  36 | Silhouette |  0.229 |
+|Preference | 0.50 | Damping |  0.5 | Clusters |  61 | Silhouette |  0.230 |
+|Preference | 0.50 | Damping |  0.6 | Clusters |  60 | Silhouette |  0.206 |
+|Preference | 0.50 | Damping |  0.7 | Clusters |  60 | Silhouette |  0.206 |
+|Preference | 0.50 | Damping |  0.8 | Clusters |  60 | Silhouette |  0.206 |
+|Preference | 0.50 | Damping |  0.9 | Clusters |  47 | Silhouette |  0.165 |
+|Preference | 0.60 | Damping |  0.5 | Clusters |  75 | Silhouette |  0.169 |
+|Preference | 0.60 | Damping |  0.6 | Clusters |  75 | Silhouette |  0.169 |
+|Preference | 0.60 | Damping |  0.7 | Clusters |  77 | Silhouette |  0.162 |
+|Preference | 0.60 | Damping |  0.8 | Clusters |  75 | Silhouette |  0.169 |
+|Preference | 0.60 | Damping |  0.9 | Clusters |  86 | Silhouette |  0.067 |
+|Preference | 0.70 | Damping |  0.5 | Clusters |  83 | Silhouette |  0.124 |
+|Preference | 0.70 | Damping |  0.6 | Clusters |  83 | Silhouette |  0.124 |
+|Preference | 0.70 | Damping |  0.7 | Clusters |  83 | Silhouette |  0.124 |
+|Preference | 0.70 | Damping |  0.8 | Clusters |  83 | Silhouette |  0.124 |
+|Preference | 0.70 | Damping |  0.9 | Clusters |  74 | Silhouette |  0.136 |
+|Preference | 0.80 | Damping |  0.5 | Clusters |  91 | Silhouette |  0.073 |
+|Preference | 0.80 | Damping |  0.6 | Clusters |  92 | Silhouette |  0.060 |
+|Preference | 0.80 | Damping |  0.7 | Clusters |  90 | Silhouette |  0.077 |
+|Preference | 0.80 | Damping |  0.8 | Clusters |  91 | Silhouette |  0.073 |
+|Preference | 0.80 | Damping |  0.9 | Clusters |  87 | Silhouette |  0.060 |
+|Preference | 0.90 | Damping |  0.5 | Clusters |  96 | Silhouette |  0.017 |
+|Preference | 0.90 | Damping |  0.6 | Clusters |  96 | Silhouette |  0.017 |
+|Preference | 0.90 | Damping |  0.7 | Clusters |  96 | Silhouette |  0.017 |
+|Preference | 0.90 | Damping |  0.8 | Clusters |  96 | Silhouette |  0.017 |
+|Preference | 0.90 | Damping |  0.9 | Clusters |  95 | Silhouette |  0.012 |
+
+Best Damping Value: 0.7 Best Preference Value: 0.4
+
+Feature = Eigen Values of Laplacian, Number of Features = 2
+
+|Preference | 0.10 | Damping |  0.5 | Clusters |  17 | Silhouette |  0.469 |
+|Preference | 0.10 | Damping |  0.6 | Clusters |  17 | Silhouette |  0.469 |
+|Preference | 0.10 | Damping |  0.7 | Clusters |  16 | Silhouette |  0.467 |
+|Preference | 0.10 | Damping |  0.8 | Clusters |  16 | Silhouette |  0.467 |
+|Preference | 0.10 | Damping |  0.9 | Clusters |  19 | Silhouette |  0.470 |
+|Preference | 0.20 | Damping |  0.5 | Clusters |  22 | Silhouette |  0.568 |
+|Preference | 0.20 | Damping |  0.6 | Clusters |  22 | Silhouette |  0.568 |
+|Preference | 0.20 | Damping |  0.7 | Clusters |  22 | Silhouette |  0.568 |
+|Preference | 0.20 | Damping |  0.8 | Clusters |  22 | Silhouette |  0.568 |
+|Preference | 0.20 | Damping |  0.9 | Clusters |  13 | Silhouette |  0.338 |
+|Preference | 0.30 | Damping |  0.5 | Clusters |  26 | Silhouette |  0.599 |
+|Preference | 0.30 | Damping |  0.6 | Clusters |  26 | Silhouette |  0.599 |
+|Preference | 0.30 | Damping |  0.7 | Clusters |  25 | Silhouette |  0.575 |
+|Preference | 0.30 | Damping |  0.8 | Clusters |  22 | Silhouette |  0.537 |
+|Preference | 0.30 | Damping |  0.9 | Clusters |  16 | Silhouette |  0.332 |
+|Preference | 0.40 | Damping |  0.5 | Clusters |  24 | Silhouette |  0.546 |
+|Preference | 0.40 | Damping |  0.6 | Clusters |  24 | Silhouette |  0.546 |
+|Preference | 0.40 | Damping |  0.7 | Clusters |  24 | Silhouette |  0.546 |
+|Preference | 0.40 | Damping |  0.8 | Clusters |  24 | Silhouette |  0.546 |
+|Preference | 0.40 | Damping |  0.9 | Clusters |  22 | Silhouette |  0.471 |
+|Preference | 0.50 | Damping |  0.5 | Clusters |  32 | Silhouette |  0.633 |
+|Preference | 0.50 | Damping |  0.6 | Clusters |  32 | Silhouette |  0.633 |
+|Preference | 0.50 | Damping |  0.7 | Clusters |  32 | Silhouette |  0.633 |
+|Preference | 0.50 | Damping |  0.8 | Clusters |  31 | Silhouette |  0.626 |
+|Preference | 0.50 | Damping |  0.9 | Clusters |  28 | Silhouette |  0.432 |
+|Preference | 0.60 | Damping |  0.5 | Clusters |  35 | Silhouette |  0.661 |
+|Preference | 0.60 | Damping |  0.6 | Clusters |  35 | Silhouette |  0.661 |
+|Preference | 0.60 | Damping |  0.7 | Clusters |  35 | Silhouette |  0.661 |
+|Preference | 0.60 | Damping |  0.8 | Clusters |  34 | Silhouette |  0.654 |
+|Preference | 0.60 | Damping |  0.9 | Clusters |  36 | Silhouette |  0.452 |
+|Preference | 0.70 | Damping |  0.5 | Clusters |  41 | Silhouette |  0.647 |
+|Preference | 0.70 | Damping |  0.6 | Clusters |  41 | Silhouette |  0.647 |
+|Preference | 0.70 | Damping |  0.7 | Clusters |  41 | Silhouette |  0.647 |
+|Preference | 0.70 | Damping |  0.8 | Clusters |  41 | Silhouette |  0.647 |
+|Preference | 0.70 | Damping |  0.9 | Clusters |  19 | Silhouette |  0.360 |
+|Preference | 0.80 | Damping |  0.5 | Clusters |  50 | Silhouette |  0.587 |
+|Preference | 0.80 | Damping |  0.6 | Clusters |  50 | Silhouette |  0.587 |
+|Preference | 0.80 | Damping |  0.7 | Clusters |  52 | Silhouette |  0.575 |
+|Preference | 0.80 | Damping |  0.8 | Clusters |  54 | Silhouette |  0.560 |
+|Preference | 0.80 | Damping |  0.9 | Clusters |  27 | Silhouette |  0.452 |
+|Preference | 0.90 | Damping |  0.5 | Clusters |  60 | Silhouette |  0.502 |
+|Preference | 0.90 | Damping |  0.6 | Clusters |  64 | Silhouette |  0.475 |
+|Preference | 0.90 | Damping |  0.7 | Clusters |  62 | Silhouette |  0.493 |
+|Preference | 0.90 | Damping |  0.8 | Clusters |  64 | Silhouette |  0.475 |
+|Preference | 0.90 | Damping |  0.9 | Clusters |  42 | Silhouette |  0.344 |
+
+Best Damping Value: 0.5 Best Preference Value: 0.6
+
+
+Feature = Eigen Values of Laplacian, Number of Features = 3
+
+
+|Preference | 0.10 | Damping |  0.5 | Clusters |  22 | Silhouette |  0.430 |
+|Preference | 0.10 | Damping |  0.6 | Clusters |  22 | Silhouette |  0.430 |
+|Preference | 0.10 | Damping |  0.7 | Clusters |  22 | Silhouette |  0.430 |
+|Preference | 0.10 | Damping |  0.8 | Clusters |  22 | Silhouette |  0.430 |
+|Preference | 0.10 | Damping |  0.9 | Clusters |  20 | Silhouette |  0.388 |
+|Preference | 0.20 | Damping |  0.5 | Clusters |  24 | Silhouette |  0.452 |
+|Preference | 0.20 | Damping |  0.6 | Clusters |  24 | Silhouette |  0.452 |
+|Preference | 0.20 | Damping |  0.7 | Clusters |  24 | Silhouette |  0.452 |
+|Preference | 0.20 | Damping |  0.8 | Clusters |  24 | Silhouette |  0.452 |
+|Preference | 0.20 | Damping |  0.9 | Clusters |  22 | Silhouette |  0.408 |
+|Preference | 0.30 | Damping |  0.5 | Clusters |  25 | Silhouette |  0.457 |
+|Preference | 0.30 | Damping |  0.6 | Clusters |  25 | Silhouette |  0.457 |
+|Preference | 0.30 | Damping |  0.7 | Clusters |  25 | Silhouette |  0.457 |
+|Preference | 0.30 | Damping |  0.8 | Clusters |  25 | Silhouette |  0.457 |
+|Preference | 0.30 | Damping |  0.9 | Clusters |  23 | Silhouette |  0.417 |
+|Preference | 0.40 | Damping |  0.5 | Clusters |  26 | Silhouette |  0.466 |
+|Preference | 0.40 | Damping |  0.6 | Clusters |  26 | Silhouette |  0.466 |
+|Preference | 0.40 | Damping |  0.7 | Clusters |  26 | Silhouette |  0.466 |
+|Preference | 0.40 | Damping |  0.8 | Clusters |  26 | Silhouette |  0.466 |
+|Preference | 0.40 | Damping |  0.9 | Clusters |  22 | Silhouette |  0.409 |
+|Preference | 0.50 | Damping |  0.5 | Clusters |  36 | Silhouette |  0.487 |
+|Preference | 0.50 | Damping |  0.6 | Clusters |  36 | Silhouette |  0.487 |
+|Preference | 0.50 | Damping |  0.7 | Clusters |  36 | Silhouette |  0.467 |
+|Preference | 0.50 | Damping |  0.8 | Clusters |  37 | Silhouette |  0.474 |
+|Preference | 0.50 | Damping |  0.9 | Clusters |  43 | Silhouette |  0.343 |
+|Preference | 0.60 | Damping |  0.5 | Clusters |  40 | Silhouette |  0.451 |
+|Preference | 0.60 | Damping |  0.6 | Clusters |  40 | Silhouette |  0.451 |
+|Preference | 0.60 | Damping |  0.7 | Clusters |  40 | Silhouette |  0.451 |
+|Preference | 0.60 | Damping |  0.8 | Clusters |  40 | Silhouette |  0.451 |
+|Preference | 0.60 | Damping |  0.9 | Clusters |  33 | Silhouette |  0.403 |
+|Preference | 0.70 | Damping |  0.5 | Clusters |  54 | Silhouette |  0.411 |
+|Preference | 0.70 | Damping |  0.6 | Clusters |  50 | Silhouette |  0.432 |
+|Preference | 0.70 | Damping |  0.7 | Clusters |  52 | Silhouette |  0.426 |
+|Preference | 0.70 | Damping |  0.8 | Clusters |  50 | Silhouette |  0.432 |
+|Preference | 0.70 | Damping |  0.9 | Clusters |  39 | Silhouette |  0.353 |
+|Preference | 0.80 | Damping |  0.5 | Clusters |  63 | Silhouette |  0.325 |
+|Preference | 0.80 | Damping |  0.6 | Clusters |  69 | Silhouette |  0.307 |
+|Preference | 0.80 | Damping |  0.7 | Clusters |  69 | Silhouette |  0.302 |
+|Preference | 0.80 | Damping |  0.8 | Clusters |  71 | Silhouette |  0.294 |
+|Preference | 0.80 | Damping |  0.9 | Clusters |  84 | Silhouette |  0.100 |
+|Preference | 0.90 | Damping |  0.5 | Clusters |  81 | Silhouette |  0.224 |
+|Preference | 0.90 | Damping |  0.6 | Clusters |  85 | Silhouette |  0.185 |
+|Preference | 0.90 | Damping |  0.7 | Clusters |  83 | Silhouette |  0.198 |
+|Preference | 0.90 | Damping |  0.8 | Clusters |  85 | Silhouette |  0.185 |
+|Preference | 0.90 | Damping |  0.9 | Clusters |  70 | Silhouette |  0.252 |
+
+Best Damping Value: 0.5 Best Preference Value: 0.5
+
+
+Feature = Eigen Values of Laplacian, Number of Features = 5
+
+
+|Preference | 0.10 | Damping |  0.5 | Clusters |  23 | Silhouette |  0.459 |
+|Preference | 0.10 | Damping |  0.6 | Clusters |  23 | Silhouette |  0.459 |
+|Preference | 0.10 | Damping |  0.7 | Clusters |  23 | Silhouette |  0.459 |
+|Preference | 0.10 | Damping |  0.8 | Clusters |  24 | Silhouette |  0.465 |
+|Preference | 0.10 | Damping |  0.9 | Clusters |  25 | Silhouette |  0.491 |
+|Preference | 0.20 | Damping |  0.5 | Clusters |  26 | Silhouette |  0.477 |
+|Preference | 0.20 | Damping |  0.6 | Clusters |  26 | Silhouette |  0.477 |
+|Preference | 0.20 | Damping |  0.7 | Clusters |  26 | Silhouette |  0.477 |
+|Preference | 0.20 | Damping |  0.8 | Clusters |  27 | Silhouette |  0.452 |
+|Preference | 0.20 | Damping |  0.9 | Clusters |  27 | Silhouette |  0.452 |
+|Preference | 0.30 | Damping |  0.5 | Clusters |  28 | Silhouette |  0.483 |
+|Preference | 0.30 | Damping |  0.6 | Clusters |  28 | Silhouette |  0.483 |
+|Preference | 0.30 | Damping |  0.7 | Clusters |  28 | Silhouette |  0.483 |
+|Preference | 0.30 | Damping |  0.8 | Clusters |  29 | Silhouette |  0.458 |
+|Preference | 0.30 | Damping |  0.9 | Clusters |  27 | Silhouette |  0.470 |
+|Preference | 0.40 | Damping |  0.5 | Clusters |  32 | Silhouette |  0.478 |
+|Preference | 0.40 | Damping |  0.6 | Clusters |  32 | Silhouette |  0.478 |
+|Preference | 0.40 | Damping |  0.7 | Clusters |  32 | Silhouette |  0.478 |
+|Preference | 0.40 | Damping |  0.8 | Clusters |  32 | Silhouette |  0.478 |
+|Preference | 0.40 | Damping |  0.9 | Clusters |  32 | Silhouette |  0.426 |
+|Preference | 0.50 | Damping |  0.5 | Clusters |  38 | Silhouette |  0.468 |
+|Preference | 0.50 | Damping |  0.6 | Clusters |  38 | Silhouette |  0.468 |
+|Preference | 0.50 | Damping |  0.7 | Clusters |  38 | Silhouette |  0.468 |
+|Preference | 0.50 | Damping |  0.8 | Clusters |  38 | Silhouette |  0.468 |
+|Preference | 0.50 | Damping |  0.9 | Clusters |  35 | Silhouette |  0.442 |
+|Preference | 0.60 | Damping |  0.5 | Clusters |  43 | Silhouette |  0.456 |
+|Preference | 0.60 | Damping |  0.6 | Clusters |  43 | Silhouette |  0.456 |
+|Preference | 0.60 | Damping |  0.7 | Clusters |  43 | Silhouette |  0.456 |
+|Preference | 0.60 | Damping |  0.8 | Clusters |  43 | Silhouette |  0.456 |
+|Preference | 0.60 | Damping |  0.9 | Clusters |  51 | Silhouette |  0.332 |
+|Preference | 0.70 | Damping |  0.5 | Clusters |  51 | Silhouette |  0.371 |
+|Preference | 0.70 | Damping |  0.6 | Clusters |  51 | Silhouette |  0.371 |
+|Preference | 0.70 | Damping |  0.7 | Clusters |  51 | Silhouette |  0.371 |
+|Preference | 0.70 | Damping |  0.8 | Clusters |  51 | Silhouette |  0.371 |
+|Preference | 0.70 | Damping |  0.9 | Clusters |  44 | Silhouette |  0.321 |
+|Preference | 0.80 | Damping |  0.5 | Clusters |  67 | Silhouette |  0.284 |
+|Preference | 0.80 | Damping |  0.6 | Clusters |  69 | Silhouette |  0.263 |
+|Preference | 0.80 | Damping |  0.7 | Clusters |  69 | Silhouette |  0.263 |
+|Preference | 0.80 | Damping |  0.8 | Clusters |  67 | Silhouette |  0.284 |
+|Preference | 0.80 | Damping |  0.9 | Clusters |  76 | Silhouette |  0.138 |
+|Preference | 0.90 | Damping |  0.5 | Clusters |  88 | Silhouette |  0.107 |
+|Preference | 0.90 | Damping |  0.6 | Clusters |  88 | Silhouette |  0.107 |
+|Preference | 0.90 | Damping |  0.7 | Clusters |  88 | Silhouette |  0.107 |
+|Preference | 0.90 | Damping |  0.8 | Clusters |  88 | Silhouette |  0.107 |
+|Preference | 0.90 | Damping |  0.9 | Clusters |  81 | Silhouette |  0.167 |
+
+Best Damping Value: 0.9 Best Preference Value: 0.1
+

@@ -1,0 +1,19 @@
+Feature = Eigenvector Centrality, (Number of Features = 2,3,5)
+
+|Preference | 0.60 | Damping |  0.5 | Clusters |  36 | Silhouette |  0.631 |
+
+|Preference | 0.30 | Damping |  0.5 | Clusters |  30 | Silhouette |  0.468 |
+
+|Preference | 0.40 | Damping |  0.7 | Clusters |  41 | Silhouette |  0.255 |
+
+
+Feature = Eigen Values of Laplacian (number of features = 2,3,5)
+
+|Preference | 0.60 | Damping |  0.5 | Clusters |  35 | Silhouette |  0.661 |
+
+|Preference | 0.50 | Damping |  0.5 | Clusters |  36 | Silhouette |  0.487 |
+
+|Preference | 0.10 | Damping |  0.9 | Clusters |  25 | Silhouette |  0.491 |
+
+
+
