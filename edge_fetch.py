@@ -2,10 +2,13 @@
 # Fetch data
 import subprocess
 import requests
+import pickle
+from io import BytesIO
 
 # Data structure
 import numpy as np
 import networkx as nx
+import matplotlib.pyplot as plt
 
 # edge_fetch.py written by @v715
 ### CODE ###
@@ -70,8 +73,8 @@ class edge_terrier():
         
         # Fetch edgelist                                                               
         link = 'http://mrneurodata.s3.amazonaws.com/' + self.filepath + filename
-        edges = requests.get(link)
-        G = nx.read_gpickle(edges)
+        edges = requests.get(link).content
+        G = pickle.loads(edges)
 
         if draw_graph:
             nx.draw(G)
@@ -79,16 +82,19 @@ class edge_terrier():
 
         return G, filename
 
-    def convert_gpickle_all(self):
+    def convert_gpickle_all(self, drawgraphs = False):
         # returns a generator of all filelists
         for filename in self.filelist:
-            G = self.convert_gpickle(filename)
+            G = self.convert_gpickle(filename, drawgraphs)
             if G is not None:
 
                 yield G
 
-    def getGraphs(self, list):
+    def getGraphs(self, _list):
         graphList = []
-        for item in list:
+        fileList = []
+        for item in _list:
             graphList.append(item[0])
-        return graphList
+            fileList.append(item[1])
+        return graphList, fileList
+  

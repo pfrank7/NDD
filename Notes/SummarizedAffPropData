@@ -1,3 +1,6 @@
+Data = HBN
+——————————————————————————————————————
+
 Feature = Eigenvector Centrality, (Number of Features = 2,3,5)
 
 |Preference | 0.60 | Damping |  0.5 | Clusters |  36 | Silhouette |  0.631 |
@@ -15,5 +18,21 @@ Feature = Eigen Values of Laplacian (number of features = 2,3,5)
 
 |Preference | 0.10 | Damping |  0.9 | Clusters |  25 | Silhouette |  0.491 |
 
+Data = HNU1
+——————————————————————————————————————
+Feature = Eigenvector Centrality, (Number of Features = 2,3,5)
+
+|Preference | 0.10 | Damping |  0.5 | Clusters |  86 | Silhouette |  0.134 |
+
+|Preference | 0.10 | Damping |  0.5 | Clusters |  93 | Silhouette |  0.094 |
+
+|Preference | 0.05 | Damping |  0.8 | Clusters |  77 | Silhouette |  0.071 |
 
 
+Feature = Eigen Values of Laplacian (number of features = 2,3,5)
+
+|Preference | 0.05 | Damping |  0.6 | Clusters |  64 | Silhouette |  0.157 |
+
+|Preference | 0.05 | Damping |  0.9 | Clusters |  69 | Silhouette |  0.110 |
+
+|Preference | 0.10 | Damping |  0.8 | Clusters |  93 | Silhouette |  0.096 |

@@ -16,3 +16,4 @@ X<-as.matrix(read.table("~/Documents/NDD/outfileMat.txt",header=FALSE,sep=" "))
 urerfStructure <- urerf(X, numtrees, k)
 SM = urerfStructure$similarityMatrix
 write.table(SM, file="~/Documents/NDD/outfileSimMat.txt", row.names=FALSE, col.names=FALSE)
+
