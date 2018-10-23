@@ -1,0 +1,96 @@
+AFFINITY PROPAGATION
+
+Urerf Parameters -> numtrees = 500, k = 10, depth = 4
+
+|Preference | 0.36 | Damping |  0.6 | Clusters |  39 | Silhouette |  0.204 |
+
+|Preference | 0.60 | Damping |  0.9 | Clusters |  39 | ARI |  0.080 |
+
+
+Urerf Parameters -> numtrees = 500, k = 10, depth = 10
+
+|Preference | 0.06 | Damping |  0.5 | Clusters |  35 | Silhouette |  0.223 |
+
+|Preference | 0.17 | Damping |  0.9 | Clusters |  35 | ARI |  0.095 |
+
+
+Urerf Parameters -> numtrees = 500, k = 10, depth = 2
+
+|Preference | 0.19 | Damping |  0.6 | Clusters |  37 | Silhouette |  0.212 |
+
+|Preference | 0.16 | Damping |  0.5 | Clusters |  34 | ARI |  0.093 |
+
+
+Urerf Parameters -> numtrees = 500, k = 10, depth = 12
+
+|Preference | 0.33 | Damping |  0.5 | Clusters |  37 | Silhouette |  0.211 |
+
+
+|Preference | 0.14 | Damping |  0.9 | Clusters |  33 | ARI |  0.099 |
+
+
+Urerf Parameters -> numtrees = 500, k = 10, depth = 12
+
+|Preference | 0.46 | Damping |  0.5 | Clusters |  39 | Silhouette |  0.215 |
+
+|Preference | 0.06 | Damping |  0.5 | Clusters |  33 | ARI |  0.097 |
+
+Urerf Parameters -> numtrees = 500, k = 10, depth = 6
+
+|Preference | 0.14 | Damping |  0.6 | Clusters |  34 | ARI |  0.094 |
+
+|Preference | 0.39 | Damping |  0.5 | Clusters |  36 | Silhouette |  0.214 |
+
+Urerf Parameters -> numtrees = 500, k = 6, depth = 6
+
+|Preference | 0.06 | Damping |  0.5 | Clusters |  40 | Silhouette |  0.272 |
+
+|Preference | 0.06 | Damping |  0.9 | Clusters |  39 | ARI |  0.076 |
+
+Urerf Parameters -> numtrees = 500, k = 4, depth = 6
+
+|Preference | 0.06 | Damping |  0.9 | Clusters |  39 | ARI |  0.075 |
+
+|Preference | 0.10 | Damping |  0.7 | Clusters |  43 | Silhouette |  0.252 |
+
+Urerf Parameters -> numtrees = 500, k = 15, depth = 6
+
+|Preference | 0.06 | Damping |  0.5 | Clusters |  28 | Silhouette |  0.250 |
+
+|Preference | 0.08 | Damping |  0.9 | Clusters |  26 | ARI |  0.137 |
+
+
+MINI BATCH K MEANS
+
+|BatchSize | 50.00 | Clusters |  3.0 | ARI |  0.729 |
+|BatchSize | 60.00 | Clusters |  3.0 | ARI |  0.716 |
+|BatchSize | 70.00 | Clusters |  3.0 | ARI |  0.716 |
+|BatchSize | 80.00 | Clusters |  3.0 | ARI |  0.728 |
+|BatchSize | 90.00 | Clusters |  3.0 | ARI |  0.730 |
+|BatchSize | 100.00 | Clusters |  3.0 | ARI |  0.802 |
+|BatchSize | 110.00 | Clusters |  3.0 | ARI |  0.716 |
+|BatchSize | 120.00 | Clusters |  3.0 | ARI |  0.716 |
+|BatchSize | 130.00 | Clusters |  3.0 | ARI |  0.730 |
+|BatchSize | 140.00 | Clusters |  3.0 | ARI |  0.716 |
+|BatchSize | 150.00 | Clusters |  3.0 | ARI |  0.730 |
+
+
+
+|BatchSize | 100.00 | Clusters |  2.0 | Silhouette |  0.681 |
+|BatchSize | 100.00 | Clusters |  3.0 | Silhouette |  0.551 |
+|BatchSize | 100.00 | Clusters |  4.0 | Silhouette |  0.496 |
+|BatchSize | 100.00 | Clusters |  5.0 | Silhouette |  0.367 |
+|BatchSize | 100.00 | Clusters |  6.0 | Silhouette |  0.475 |
+|BatchSize | 100.00 | Clusters |  7.0 | Silhouette |  0.356 |
+|BatchSize | 100.00 | Clusters |  8.0 | Silhouette |  0.355 |
+|BatchSize | 100.00 | Clusters |  9.0 | Silhouette |  0.318 |
+
+
+|BatchSize | 150.00 | Clusters |  2.0 | ARI |  0.540 |
+|BatchSize | 150.00 | Clusters |  3.0 | ARI |  0.730 |
+|BatchSize | 150.00 | Clusters |  4.0 | ARI |  0.640 |
+|BatchSize | 150.00 | Clusters |  5.0 | ARI |  0.606 |
+|BatchSize | 150.00 | Clusters |  6.0 | ARI |  0.470 |
+|BatchSize | 150.00 | Clusters |  7.0 | ARI |  0.497 |
+|BatchSize | 150.00 | Clusters |  8.0 | ARI |  0.446 |
+|BatchSize | 150.00 | Clusters |  9.0 | ARI |  0.427 |
