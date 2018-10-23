@@ -27,8 +27,9 @@ class featureSelection():
             list_ = list(eigenVectorDict.values())
             featureMatrix.append(list_)
         featureMatrix = np.stack(featureMatrix).astype("float")
-        varValues = self.getVariance(featureMatrix)
-        featInds = np.argsort(varValues)[-numFeatures:]
+        # Select highest feature centrality values
+        averages = np.mean(featureMatrix, axis=0)
+        featInds = np.argsort(averages)[-numFeatures:]
         return featureMatrix[:,featInds]
     
     def getVariance(self, featureMatrix):

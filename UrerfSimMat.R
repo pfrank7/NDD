@@ -12,8 +12,12 @@ depth <- 4
 #D = num graphs, m = eigenvector centrality values
 X<-as.matrix(read.table("~/Documents/NDD/outfileMat.txt",header=FALSE,sep=" "))
 
+#X<-as.matrix(read.table("~/Documents/NDD/outTestMat.txt",header=FALSE,sep=" "))
+
 # create a urerf structure which includes the similarity matrix
 urerfStructure <- urerf(X, numtrees, k)
 SM = urerfStructure$similarityMatrix
 write.table(SM, file="~/Documents/NDD/outfileSimMat.txt", row.names=FALSE, col.names=FALSE)
+
+#write.table(SM, file="~/Documents/NDD/inTestMat.txt", row.names=FALSE, col.names=FALSE)
 
