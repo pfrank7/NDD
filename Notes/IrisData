@@ -28,12 +28,30 @@ Urerf Parameters -> numtrees = 500, k = 10, depth = 12
 
 |Preference | 0.14 | Damping |  0.9 | Clusters |  33 | ARI |  0.099 |
 
+Urerf Parameters -> numtrees = 500, k = 10, depth = 15
 
-Urerf Parameters -> numtrees = 500, k = 10, depth = 12
+|Preference | 0.05 | Damping |  0.9 | Clusters |  34 | ARI |  0.090 |
 
-|Preference | 0.46 | Damping |  0.5 | Clusters |  39 | Silhouette |  0.215 |
+|Preference | 0.35 | Damping |  0.6 | Clusters |  37 | Silhouette |  0.200 |
 
-|Preference | 0.06 | Damping |  0.5 | Clusters |  33 | ARI |  0.097 |
+Urerf Parameters -> numtrees = 500, k = 10, depth = 20
+
+|Preference | 0.05 | Damping |  0.8 | Clusters |  33 | ARI |  0.095 |
+
+|Preference | 0.45 | Damping |  0.6 | Clusters |  37 | Silhouette |  0.199 |
+
+
+Urerf Parameters -> numtrees = 500, k = 10, depth = 25
+
+|Preference | 0.20 | Damping |  0.6 | Clusters |  33 | Silhouette |  0.204 |
+
+|Preference | 0.05 | Damping |  0.6 | Clusters |  31 | ARI |  0.103 |
+
+Urerf Parameters -> numtrees = 500, k = 10, depth = 18
+
+|Preference | 0.05 | Damping |  0.8 | Clusters |  33 | ARI |  0.092 |
+
+|Preference | 0.45 | Damping |  0.7 | Clusters |  38 | Silhouette |  0.212 |
 
 Urerf Parameters -> numtrees = 500, k = 10, depth = 6
 
@@ -58,6 +76,79 @@ Urerf Parameters -> numtrees = 500, k = 15, depth = 6
 |Preference | 0.06 | Damping |  0.5 | Clusters |  28 | Silhouette |  0.250 |
 
 |Preference | 0.08 | Damping |  0.9 | Clusters |  26 | ARI |  0.137 |
+
+
+Urerf Parameters -> numtrees = 500, k = 20, depth = 6
+
+|Preference | 0.28 | Damping |  0.9 | Clusters |  24 | Silhouette |  0.221 |
+
+|Preference | 0.06 | Damping |  0.8 | Clusters |  23 | ARI |  0.156 |
+
+Urerf Parameters -> numtrees = 500, k = 30, depth = 6
+
+|Preference | 0.19 | Damping |  0.9 | Clusters |  18 | ARI |  0.198 |
+
+|Preference | 0.09 | Damping |  0.7 | Clusters |  20 | Silhouette |  0.217 |
+
+Urerf Parameters -> numtrees = 500, k = 40, depth = 6
+
+|Preference | 0.44 | Damping |  0.9 | Clusters |  18 | Silhouette |  0.225 |
+
+|Preference | 0.06 | Damping |  0.9 | Clusters |  16 | ARI |  0.204 |
+
+Urerf Parameters -> numtrees = 500, k = 60, depth = 6
+
+|Preference | 0.94 | Damping |  0.5 | Clusters |  14 | Silhouette |  0.228 |
+
+|Preference | 0.77 | Damping |  0.9 | Clusters |  13 | ARI |  0.298 |
+
+Urerf Parameters -> numtrees = 500, k = 100, depth = 6
+
+|Preference | 0.06 | Damping |  0.8 | Clusters |  5 | Silhouette |  0.462 |
+
+|Preference | 0.06 | Damping |  0.9 | Clusters |  4 | ARI |  0.708 |
+
+Urerf Parameters -> numtrees = 500, k = 120, depth = 6
+
+|Preference | 0.34 | Damping |  0.9 | Clusters |  4 | Silhouette |  0.408 |
+
+|Preference | 0.06 | Damping |  0.9 | Clusters |  4 | ARI |  0.708 |
+
+Urerf Parameters -> numtrees = 500, k = 150, depth = 6
+
+|Preference | 0.06 | Damping |  0.7 | Clusters |  4 | Silhouette |  0.369 |
+
+|Preference | 0.06 | Damping |  0.9 | Clusters |  4 | ARI |  0.618 |
+
+Urerf Parameters -> numtrees = 500, k = 90, depth = 6
+
+|Preference | 0.06 | Damping |  0.7 | Clusters |  4 | Silhouette |  0.369 |
+
+|Preference | 0.60 | Damping |  0.9 | Clusters |  10 | ARI |  0.538 |
+
+
+VARYING DAMPING
+
+
+|Preference | 0.06 | Damping |  0.5 | Clusters |  16 | Silhouette |  0.299 |
+|Preference | 0.06 | Damping |  0.6 | Clusters |  6 | Silhouette |  0.351 |
+|Preference | 0.06 | Damping |  0.7 | Clusters |  4 | Silhouette |  0.384 |
+|Preference | 0.06 | Damping |  0.8 | Clusters |  4 | Silhouette |  0.384 |
+|Preference | 0.06 | Damping |  0.9 | Clusters |  4 | Silhouette |  0.384 |
+
+VARYING PREFERENCE
+
+|Preference | 0.10 | Damping |  0.9 | Clusters |  9 | ARI |  0.396 |
+|Preference | 0.20 | Damping |  0.9 | Clusters |  9 | ARI |  0.396 |
+|Preference | 0.30 | Damping |  0.9 | Clusters |  9 | ARI |  0.396 |
+|Preference | 0.40 | Damping |  0.9 | Clusters |  11 | ARI |  0.404 |
+|Preference | 0.50 | Damping |  0.9 | Clusters |  11 | ARI |  0.404 |
+|Preference | 0.60 | Damping |  0.9 | Clusters |  10 | ARI |  0.538 |
+|Preference | 0.70 | Damping |  0.9 | Clusters |  9 | ARI |  0.396 |
+|Preference | 0.80 | Damping |  0.9 | Clusters |  11 | ARI |  0.527 |
+|Preference | 0.90 | Damping |  0.9 | Clusters |  11 | ARI |  0.527 |
+|Preference | 1.00 | Damping |  0.9 | Clusters |  11 | ARI |  0.527 |
+|Preference | 1.10 | Damping |  0.9 | Clusters |  11 | ARI |  0.395 |
 
 
 MINI BATCH K MEANS
