@@ -1,7 +1,6 @@
 # Adaptive Cognitive Evaluation
 
-‘The Adaptive Cognitive Evaluation (ACE) is a mobile cognitive control assessment battery containing standard tests that assess different aspects of cognitive control (attention, working memory, and goal management), modified by incorporating adaptive algorithms, immersive graphics, video tutorials, motivating feedback, and a user-friendly interface.’
-as described on http://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/assessments/ace.html
+The Adaptive Cognitive Evaluation (ACE) is a mobile cognitive control assessment battery containing standard tests that assess different aspects of cognitive control (attention, working memory, and goal management), modified by incorporating adaptive algorithms, immersive graphics, video tutorials, motivating feedback, and a user-friendly interface.<sup>1</sup>
 
 ### Understanding the results
 -------------------------
@@ -14,3 +13,5 @@ The final ASSQ comprises 27 items rated on a 3-point scale (0, 1, or 2; 0 indica
 2.  Title_2: Description of data in column 2
 3.  Title_3: Description of data in column 3
 4.  Title_4: Description of data in column 4
+
+<sub>1. http://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/assessments/ace.html</sub>
